@@ -1,5 +1,6 @@
+import java.util.Scanner;
+
 public class java__matrix_border_len {
-    import java.util.Scanner;
 
     public class BorderSum {
         public static void main(String[] args) {
