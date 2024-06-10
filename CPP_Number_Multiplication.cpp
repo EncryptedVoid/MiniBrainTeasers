@@ -2,7 +2,8 @@
 #include <cmath>
 
 int getProductOfDigits(int number) {
-    int product = 1;
+    // Use long long to handle larger products
+    long long product = 1;
     number = std::abs(number);  // Ensure the number is positive
 
     if (number == 0) {
@@ -11,6 +12,10 @@ int getProductOfDigits(int number) {
 
     while (number > 0) {
         int digit = number % 10;
+        // If digit is 0 and we have other digits, return 0 immediately
+        if (digit == 0) {
+            return 0;
+        }
         product *= digit;
         number /= 10;
     }
