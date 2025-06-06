@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iPad Note-Taking Apps Feature Comparison</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            margin: 20px;
+            background: #f8f9fa;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 100%;
+            overflow-x: auto;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+            padding: 20px;
+        }
+
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 28px;
+            font-weight: 700;
+        }
+
+        .table-wrapper {
+            overflow-x: auto;
+            border-radius: 8px;
+            border: 1px solid #e0e6ed;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 12px;
+            min-width: 1200px;
+        }
+
+        th {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 12px 8px;
+            text-align: center;
+            font-weight: 600;
+            border: 1px solid #5a6c9d;
+            position: sticky;
+            top: 0;
+            z-index: 10;
+        }
+
+        th:first-child {
+            background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+            text-align: left;
+            min-width: 300px;
+            max-width: 300px;
+            padding-left: 12px;
+        }
+
+        td {
+            padding: 8px;
+            text-align: center;
+            border: 1px solid #e0e6ed;
+            background: white;
+        }
+
+        td:first-child {
+            text-align: left;
+            font-weight: 500;
+            background: #f8f9fa;
+            min-width: 300px;
+            max-width: 300px;
+            padding-left: 12px;
+            border-right: 2px solid #d1d8e0;
+        }
+
+        .feature-category {
+            background: #e3f2fd !important;
+            font-weight: 700;
+            color: #1565c0;
+            font-style: italic;
+        }
+
+        .checkmark {
+            color: #27ae60;
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        .cross {
+            color: #e74c3c;
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        .partial {
+            color: #f39c12;
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        .total-row {
+            background: #2c3e50 !important;
+            color: white;
+            font-weight: bold;
+            font-size: 14px;
+        }
+
+        .total-row td {
+            background: #34495e !important;
+            color: white;
+            font-weight: bold;
+        }
+
+        .app-column {
+            min-width: 120px;
+        }
+
+        .legend {
+            margin-top: 20px;
+            padding: 15px;
+            background: #f8f9fa;
+            border-radius: 8px;
+            border-left: 4px solid #3498db;
+        }
+
+        .legend h3 {
+            margin-top: 0;
+            color: #2c3e50;
+        }
+
+        .legend-item {
+            display: inline-block;
+            margin-right: 20px;
+            margin-bottom: 5px;
+        }
+
+        .note {
+            margin-top: 20px;
+            padding: 15px;
+            background: #fff3cd;
+            border-radius: 8px;
+            border-left: 4px solid #ffc107;
+            font-size: 14px;
+        }
+
+        tr:nth-child(even) td:not(:first-child) {
+            background: #f8f9fa;
+        }
+
+        tr:hover td {
+            background: #e8f4f8 !important;
+        }
+
+        .app-name {
+            font-weight: 700;
+            color: #2c3e50;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>📱 iPad Note-Taking Apps Feature Comparison</h1>
+
+        <div class="table-wrapper">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Feature</th>
+                        <th class="app-column"><div class="app-name">GoodNotes 6</div></th>
+                        <th class="app-column"><div class="app-name">Notability</div></th>
+                        <th class="app-column"><div class="app-name">Apple Notes</div></th>
+                        <th class="app-column"><div class="app-name">Microsoft OneNote</div></th>
+                        <th class="app-column"><div class="app-name">Notedrafts</div></th>
+                        <th class="app-column"><div class="app-name">Nebo</div></th>
+                        <th class="app-column"><div class="app-name">CollaNote</div></th>
+                        <th class="app-column"><div class="app-name">Freeform</div></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Basic Features -->
+                    <tr><td class="feature-category">📝 Basic Note-Taking Features</td><td class="feature-category"></td><td class="feature-category"></td><td class="feature-category"></td><td class="feature-category"></td><td class="feature-category"></td><td class="feature-category"></td><td class="feature-category"></td><td class="feature-category"></td></tr>
+
+                    <tr><td>Laser pointers</td><td class="checkmark">✓</td><td class="checkmark">✓</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td></tr>
+
+                    <tr><td>Native PDF support (PDF Documents, Slideshows)</td><td class="checkmark">✓</td><td class="checkmark">✓</td><td class="partial">△</td><td class="partial">△</td><td class="checkmark">✓</td><td class="checkmark">✓</td><td class="checkmark">✓</td><td class="cross">✗</td></tr>
+
+                    <tr><td>Native .ppt support (Powerpoint injection)</td><td class="partial">△</td><td class="partial">△</td><td class="cross">✗</td><td class="checkmark">✓</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td></tr>
+
+                    <tr><td>Native audio and video file support with playing ability</td><td class="partial">△</td><td class="partial">△</td><td class="checkmark">✓</td><td class="partial">△</td><td class="cross">✗</td><td class="cross">✗</td><td class="partial">△</td><td class="checkmark">✓</td></tr>
+
+                    <tr><td>"Record and note take" feature</td><td class="checkmark">✓</td><td class="checkmark">✓</td><td class="checkmark">✓</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td></tr>
+
+                    <tr><td>Note taking recording feature with audio and note video taking</td><td class="checkmark">✓</td><td class="checkmark">✓</td><td class="checkmark">✓</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td></tr>
+
+                    <tr><td>Link injection with previews (Videos, blogs, etc)</td><td class="cross">✗</td><td class="cross">✗</td><td class="checkmark">✓</td><td class="checkmark">✓</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td><td class="checkmark">✓</td></tr>
+
+                    <tr><td>Infinite canvas</td><td class="cross">✗</td><td class="checkmark">✓</td><td class="cross">✗</td><td class="checkmark">✓</td><td class="checkmark">✓</td><td class="cross">✗</td><td class="cross">✗</td><td class="checkmark">✓</td></tr>
+
+                    <tr><td>Delete lines/motion instead of pixels</td><td class="checkmark">✓</td><td class="checkmark">✓</td><td class="cross">✗</td><td class="checkmark">✓</td><td class="checkmark">✓</td><td class="checkmark">✓</td><td class="checkmark">✓</td><td class="checkmark">✓</td></tr>
+
+                    <tr><td>Selection drawings, objects, and both</td><td class="checkmark">✓</td><td class="checkmark">✓</td><td class="partial">△</td><td class="checkmark">✓</td><td class="checkmark">✓</td><td class="checkmark">✓</td><td class="checkmark">✓</td><td class="checkmark">✓</td></tr>
+
+                    <!-- Interface & Customization -->
+                    <tr><td class="feature-category">🎨 Interface & Customization</td><td class="feature-category"></td><td class="feature-category"></td><td class="feature-category"></td><td class="feature-category"></td><td class="feature-category"></td><td class="feature-category"></td><td class="feature-category"></td><td class="feature-category"></td></tr>
+
+                    <tr><td>Custom fonts</td><td class="partial">△</td><td class="partial">△</td><td class="partial">△</td><td class="partial">△</td><td class="partial">△</td><td class="partial">△</td><td class="partial">△</td><td class="partial">△</td></tr>
+
+                    <tr><td>Converting hard written text to custom hand writing based fonts</td><td class="checkmark">✓</td><td class="checkmark">✓</td><td class="cross">✗</td><td class="partial">△</td><td class="cross">✗</td><td class="checkmark">✓</td><td class="cross">✗</td><td class="cross">✗</td></tr>
+
+                    <tr><td>Full dark mode support</td><td class="checkmark">✓</td><td class="checkmark">✓</td><td class="checkmark">✓</td><td class="checkmark">✓</td><td class="checkmark">✓</td><td class="checkmark">✓</td><td class="checkmark">✓</td><td class="checkmark">✓</td></tr>
+
+                    <tr><td>Custom pages and backgrounds</td><td class="checkmark">✓</td><td class="checkmark">✓</td><td class="partial">△</td><td class="checkmark">✓</td><td class="checkmark">✓</td><td class="checkmark">✓</td><td class="checkmark">✓</td><td class="checkmark">✓</td></tr>
+
+                    <tr><td>Prechosen palettes for writing</td><td class="checkmark">✓</td><td class="checkmark">✓</td><td class="partial">△</td><td class="checkmark">✓</td><td class="checkmark">✓</td><td class="checkmark">✓</td><td class="checkmark">✓</td><td class="checkmark">✓</td></tr>
+
+                    <!-- Export & Organization -->
+                    <tr><td class="feature-category">📁 Export & Organization</td><td class="feature-category"></td><td class="feature-category"></td><td class="feature-category"></td><td class="feature-category"></td><td class="feature-category"></td><td class="feature-category"></td><td class="feature-category"></td><td class="feature-category"></td></tr>
+
+                    <tr><td>Export to PDF, JPG, PNG entire canvas and selected regions</td><td class="checkmark">✓</td><td class="checkmark">✓</td><td class="checkmark">✓</td><td class="checkmark">✓</td><td class="checkmark">✓</td><td class="checkmark">✓</td><td class="checkmark">✓</td><td class="checkmark">✓</td></tr>
+
+                    <tr><td>Cross platform with local backup and custom/personal cloud backup features</td><td class="checkmark">✓</td><td class="checkmark">✓</td><td class="checkmark">✓</td><td class="checkmark">✓</td><td class="checkmark">✓</td><td class="checkmark">✓</td><td class="partial">△</td><td class="checkmark">✓</td></tr>
+
+                    <tr><td>Full offline capabilities, with async backup</td><td class="checkmark">✓</td><td class="checkmark">✓</td><td class="checkmark">✓</td><td class="checkmark">✓</td><td class="checkmark">✓</td><td class="checkmark">✓</td><td class="checkmark">✓</td><td class="checkmark">✓</td></tr>
+
+                    <tr><td>Full Folders, Notebook, Chapters, Canvases organisation</td><td class="checkmark">✓</td><td class="partial">△</td><td class="partial">△</td><td class="checkmark">✓</td><td class="checkmark">✓</td><td class="partial">△</td><td class="partial">△</td><td class="partial">△</td></tr>
+
+                    <tr><td>Password protected Notebooks</td><td class="cross">✗</td><td class="cross">✗</td><td class="checkmark">✓</td><td class="checkmark">✓</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td></tr>
+
+                    <tr><td>Version control with labelling of each version and historical logs</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td><td class="checkmark">✓</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td></tr>
+
+                    <!-- Advanced Features -->
+                    <tr><td class="feature-category">🛠️ Advanced Features</td><td class="feature-category"></td><td class="feature-category"></td><td class="feature-category"></td><td class="feature-category"></td><td class="feature-category"></td><td class="feature-category"></td><td class="feature-category"></td><td class="feature-category"></td></tr>
+
+                    <tr><td>Native image editing (brightness, contrast, aspect ratio, proportions, cutoffs)</td><td class="partial">△</td><td class="partial">△</td><td class="checkmark">✓</td><td class="partial">△</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td><td class="partial">△</td></tr>
+
+                    <tr><td>Native mindmapping (Nodes, connections, images, UML nodes)</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td><td class="partial">△</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td><td class="checkmark">✓</td></tr>
+
+                    <tr><td>Native Markdown and LaTeX support with drawings</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td><td class="checkmark">✓</td><td class="cross">✗</td><td class="cross">✗</td></tr>
+
+                    <tr><td>Native Document Scanning Support</td><td class="checkmark">✓</td><td class="checkmark">✓</td><td class="checkmark">✓</td><td class="checkmark">✓</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td></tr>
+
+                    <tr><td>Support for Endpoints with Notion, MCP (Claude, ChatGPT, etc), and other API points</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td></tr>
+
+                    <tr><td>Support for schedulers and calendars with corresponding notes and templates for classes</td><td class="partial">△</td><td class="partial">△</td><td class="checkmark">✓</td><td class="checkmark">✓</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td></tr>
+
+                    <tr><td>Custom templates and presets</td><td class="checkmark">✓</td><td class="checkmark">✓</td><td class="partial">△</td><td class="checkmark">✓</td><td class="checkmark">✓</td><td class="checkmark">✓</td><td class="checkmark">✓</td><td class="checkmark">✓</td></tr>
+
+                    <tr><td>2FA Sign in</td><td class="cross">✗</td><td class="cross">✗</td><td class="checkmark">✓</td><td class="checkmark">✓</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td><td class="checkmark">✓</td></tr>
+
+                    <!-- Collaboration & Sharing -->
+                    <tr><td class="feature-category">🤝 Collaboration & Sharing</td><td class="feature-category"></td><td class="feature-category"></td><td class="feature-category"></td><td class="feature-category"></td><td class="feature-category"></td><td class="feature-category"></td><td class="feature-category"></td><td class="feature-category"></td></tr>
+
+                    <tr><td>Granular sharing permissions (view-only, edit, comment, watermarked)</td><td class="partial">△</td><td class="partial">△</td><td class="checkmark">✓</td><td class="checkmark">✓</td><td class="cross">✗</td><td class="cross">✗</td><td class="partial">△</td><td class="checkmark">✓</td></tr>
+
+                    <tr><td>Comment threads and annotation for comment only users</td><td class="cross">✗</td><td class="cross">✗</td><td class="checkmark">✓</td><td class="checkmark">✓</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td></tr>
+
+                    <!-- Pricing -->
+                    <tr><td class="feature-category">💰 Pricing</td><td class="feature-category"></td><td class="feature-category"></td><td class="feature-category"></td><td class="feature-category"></td><td class="feature-category"></td><td class="feature-category"></td><td class="feature-category"></td><td class="feature-category"></td></tr>
+
+                    <tr><td>Single payment or low cost yearly subscription</td><td class="checkmark">✓</td><td class="partial">△</td><td class="checkmark">✓</td><td class="checkmark">✓</td><td class="checkmark">✓</td><td class="partial">△</td><td class="checkmark">✓</td><td class="checkmark">✓</td></tr>
+
+                    <!-- Navigation & Search -->
+                    <tr><td class="feature-category">🔍 Navigation & Search</td><td class="feature-category"></td><td class="feature-category"></td><td class="feature-category"></td><td class="feature-category"></td><td class="feature-category"></td><td class="feature-category"></td><td class="feature-category"></td><td class="feature-category"></td></tr>
+
+                    <tr><td>Bookmarks on specific regions of the infinite canvas</td><td class="cross">✗</td><td class="partial">△</td><td class="cross">✗</td><td class="cross">✗</td><td class="partial">△</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td></tr>
+
+                    <tr><td>Search & Discovery</td><td class="checkmark">✓</td><td class="checkmark">✓</td><td class="checkmark">✓</td><td class="checkmark">✓</td><td class="partial">△</td><td class="checkmark">✓</td><td class="checkmark">✓</td><td class="partial">△</td></tr>
+
+                    <tr><td>Advanced filtering and tagging systems beyond folder organization</td><td class="partial">△</td><td class="partial">△</td><td class="checkmark">✓</td><td class="checkmark">✓</td><td class="cross">✗</td><td class="partial">△</td><td class="partial">△</td><td class="cross">✗</td></tr>
+
+                    <!-- AI & Smart Features -->
+                    <tr><td class="feature-category">🤖 AI & Smart Features</td><td class="feature-category"></td><td class="feature-category"></td><td class="feature-category"></td><td class="feature-category"></td><td class="feature-category"></td><td class="feature-category"></td><td class="feature-category"></td><td class="feature-category"></td></tr>
+
+                    <tr><td>Automatic shape recognition (convert rough drawings to perfect shapes)</td><td class="checkmark">✓</td><td class="checkmark">✓</td><td class="cross">✗</td><td class="checkmark">✓</td><td class="cross">✗</td><td class="checkmark">✓</td><td class="checkmark">✓</td><td class="checkmark">✓</td></tr>
+
+                    <tr><td>Auto detection of presentation mode for HDMI connections</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td></tr>
+
+                    <tr><td>Automation rules (auto-tag based on content, auto-organize by date/project)</td><td class="cross">✗</td><td class="cross">✗</td><td class="partial">△</td><td class="partial">△</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td></tr>
+
+                    <!-- Writing Experience -->
+                    <tr><td class="feature-category">✍️ Writing Experience</td><td class="feature-category"></td><td class="feature-category"></td><td class="feature-category"></td><td class="feature-category"></td><td class="feature-category"></td><td class="feature-category"></td><td class="feature-category"></td><td class="feature-category"></td></tr>
+
+                    <tr><td>Full writing smoothing abilities</td><td class="checkmark">✓</td><td class="checkmark">✓</td><td class="partial">△</td><td class="checkmark">✓</td><td class="checkmark">✓</td><td class="checkmark">✓</td><td class="checkmark">✓</td><td class="checkmark">✓</td></tr>
+
+                    <tr><td>Advanced stylus support (pressure sensitivity, tilt, barrel button customization)</td><td class="checkmark">✓</td><td class="checkmark">✓</td><td class="partial">△</td><td class="checkmark">✓</td><td class="checkmark">✓</td><td class="checkmark">✓</td><td class="checkmark">✓</td><td class="checkmark">✓</td></tr>
+
+                    <tr><td>Palm rejection and gesture customization</td><td class="checkmark">✓</td><td class="checkmark">✓</td><td class="partial">△</td><td class="checkmark">✓</td><td class="checkmark">✓</td><td class="checkmark">✓</td><td class="checkmark">✓</td><td class="checkmark">✓</td></tr>
+
+                    <tr><td>Pressure-sensitive eraser (light touch for partial erase, heavy for full erase)</td><td class="checkmark">✓</td><td class="checkmark">✓</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td><td class="checkmark">✓</td><td class="checkmark">✓</td><td class="cross">✗</td></tr>
+
+                    <!-- Performance & Stability -->
+                    <tr><td class="feature-category">⚡ Performance & Stability</td><td class="feature-category"></td><td class="feature-category"></td><td class="feature-category"></td><td class="feature-category"></td><td class="feature-category"></td><td class="feature-category"></td><td class="feature-category"></td><td class="feature-category"></td></tr>
+
+                    <tr><td>Graceful handling of extremely large canvases (performance warnings, chunked loading)</td><td class="partial">△</td><td class="checkmark">✓</td><td class="cross">✗</td><td class="checkmark">✓</td><td class="checkmark">✓</td><td class="cross">✗</td><td class="cross">✗</td><td class="checkmark">✓</td></tr>
+
+                    <tr><td>Auto-save with conflict resolution</td><td class="checkmark">✓</td><td class="checkmark">✓</td><td class="checkmark">✓</td><td class="checkmark">✓</td><td class="checkmark">✓</td><td class="checkmark">✓</td><td class="checkmark">✓</td><td class="checkmark">✓</td></tr>
+
+                    <tr><td>Recovery mode for corrupted files</td><td class="partial">△</td><td class="partial">△</td><td class="checkmark">✓</td><td class="checkmark">✓</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td><td class="checkmark">✓</td></tr>
+
+                    <!-- Advanced Features Continued -->
+                    <tr><td class="feature-category">🎯 Specialized Features</td><td class="feature-category"></td><td class="feature-category"></td><td class="feature-category"></td><td class="feature-category"></td><td class="feature-category"></td><td class="feature-category"></td><td class="feature-category"></td><td class="feature-category"></td></tr>
+
+                    <tr><td>Layers for drawings</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td></tr>
+
+                    <tr><td>Small animation abilities such as line movement, gradients, etc</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td></tr>
+
+                    <tr><td>Template for making Q cards where each page is a question side or answer side</td><td class="partial">△</td><td class="partial">△</td><td class="cross">✗</td><td class="partial">△</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td></tr>
+
+                    <tr><td>Time allocation and tracking with detection for writing and listening/learning time</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td></tr>
+
+                    <tr><td>Location based tagging and data to auto assign lecture data, professor data, class data</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td></tr>
+
+                    <tr><td>Auto detection of deadlines and important notes converted to 3rd party events</td><td class="cross">✗</td><td class="cross">✗</td><td class="partial">△</td><td class="partial">△</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td></tr>
+
+                    <tr><td>Recordings with bookmarks/timeline categorization to define breaks in topic discussion</td><td class="partial">△</td><td class="checkmark">✓</td><td class="partial">△</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td></tr>
+
+                    <tr><td>Browser extension/web clipper for saving content directly to notes</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td><td class="checkmark">✓</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td></tr>
+
+                    <tr><td>Review and update goals with references to specific regions and notes as a to do item</td><td class="cross">✗</td><td class="cross">✗</td><td class="partial">△</td><td class="checkmark">✓</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td></tr>
+
+                    <tr><td>Guided navigation option for interactive presentations with subtitles/captions</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td></tr>
+
+                    <!-- User Experience Features -->
+                    <tr><td class="feature-category">👤 User Experience & Accessibility</td><td class="feature-category"></td><td class="feature-category"></td><td class="feature-category"></td><td class="feature-category"></td><td class="feature-category"></td><td class="feature-category"></td><td class="feature-category"></td><td class="feature-category"></td></tr>
+
+                    <tr><td>Custom keyboard shortcuts and gesture commands</td><td class="partial">△</td><td class="partial">△</td><td class="partial">△</td><td class="partial">△</td><td class="cross">✗</td><td class="partial">△</td><td class="cross">✗</td><td class="partial">△</td></tr>
+
+                    <tr><td>Batch operations (mass export, bulk tagging, etc.)</td><td class="partial">△</td><td class="partial">△</td><td class="cross">✗</td><td class="checkmark">✓</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td></tr>
+
+                    <tr><td>Integration with time-tracking tools</td><td class="cross">✗</td><td class="cross">✗</td><td class="partial">△</td><td class="partial">△</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td></tr>
+
+                    <tr><td>Smart reminders based on note content or deadlines</td><td class="cross">✗</td><td class="cross">✗</td><td class="checkmark">✓</td><td class="partial">△</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td></tr>
+
+                    <tr><td>Presenter notes that are separate from audience view</td><td class="partial">△</td><td class="partial">△</td><td class="cross">✗</td><td class="checkmark">✓</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td></tr>
+
+                    <tr><td>Usage analytics (time spent on different notebooks, most-accessed regions)</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td></tr>
+
+                    <tr><td>Export/import in multiple formats for data portability</td><td class="checkmark">✓</td><td class="checkmark">✓</td><td class="checkmark">✓</td><td class="checkmark">✓</td><td class="partial">△</td><td class="checkmark">✓</td><td class="partial">△</td><td class="partial">△</td></tr>
+
+                    <tr><td>Backup verification and restoration testing</td><td class="cross">✗</td><td class="cross">✗</td><td class="checkmark">✓</td><td class="checkmark">✓</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td><td class="checkmark">✓</td></tr>
+
+                    <tr><td>Storage usage monitoring and optimization</td><td class="cross">✗</td><td class="cross">✗</td><td class="checkmark">✓</td><td class="checkmark">✓</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td><td class="checkmark">✓</td></tr>
+
+                    <tr><td>Conditional content display (show/hide based on user permissions or navigation path)</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td><td class="partial">△</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td></tr>
+
+                    <tr><td>Multi-language support</td><td class="checkmark">✓</td><td class="checkmark">✓</td><td class="checkmark">✓</td><td class="checkmark">✓</td><td class="partial">△</td><td class="checkmark">✓</td><td class="partial">△</td><td class="checkmark">✓</td></tr>
+
+                    <tr><td>Undo/redo with branching history (not just linear)</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td><td class="partial">△</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td></tr>
+
+                    <tr><td>Global find-and-replace across all content</td><td class="partial">△</td><td class="partial">△</td><td class="checkmark">✓</td><td class="checkmark">✓</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td></tr>
+
+                    <tr><td>Content duplication detection</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td></tr>
+
+                    <!-- Advanced UX Features -->
+                    <tr><td class="feature-category">🔧 Advanced UX Features</td><td class="feature-category"></td><td class="feature-category"></td><td class="feature-category"></td><td class="feature-category"></td><td class="feature-category"></td><td class="feature-category"></td><td class="feature-category"></td><td class="feature-category"></td></tr>
+
+                    <tr><td>Haptic feedback customization for different actions (drawing, erasing, selecting)</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td></tr>
+
+                    <tr><td>Audio feedback options (subtle pen sounds, page turns, etc.)</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td></tr>
+
+                    <tr><td>Smooth zoom with momentum and snap-to-fit options</td><td class="checkmark">✓</td><td class="checkmark">✓</td><td class="partial">△</td><td class="checkmark">✓</td><td class="checkmark">✓</td><td class="checkmark">✓</td><td class="checkmark">✓</td><td class="checkmark">✓</td></tr>
+
+                    <tr><td>Confirmation dialogs for destructive actions (customizable sensitivity)</td><td class="cross">✗</td><td class="cross">✗</td><td class="partial">△</td><td class="partial">△</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td><td class="partial">△</td></tr>
+
+                    <tr><td>Accidental touch filtering beyond palm rejection</td><td class="checkmark">✓</td><td class="checkmark">✓</td><td class="partial">△</td><td class="checkmark">✓</td><td class="checkmark">✓</td><td class="checkmark">✓</td><td class="checkmark">✓</td><td class="checkmark">✓</td></tr>
+
+                    <tr><td>Auto-save frequency customization</td><td class="cross">✗</td><td class="cross">✗</td><td class="partial">△</td><td class="partial">△</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td></tr>
+
+                    <tr><td>Draft preservation during app crashes</td><td class="checkmark">✓</td><td class="checkmark">✓</td><td class="checkmark">✓</td><td class="checkmark">✓</td><td class="partial">△</td><td class="partial">△</td><td class="partial">△</td><td class="checkmark">✓</td></tr>
+
+                    <tr><td>Incremental sync to prevent data loss</td><td class="checkmark">✓</td><td class="checkmark">✓</td><td class="checkmark">✓</td><td class="checkmark">✓</td><td class="checkmark">✓</td><td class="partial">△</td><td class="partial">△</td><td class="checkmark">✓</td></tr>
+
+                    <!-- Accessibility Features -->
+                    <tr><td class="feature-category">♿ Accessibility Features</td><td class="feature-category"></td><td class="feature-category"></td><td class="feature-category"></td><td class="feature-category"></td><td class="feature-category"></td><td class="feature-category"></td><td class="feature-category"></td><td class="feature-category"></td></tr>
+
+                    <tr><td>Left-handed mode optimizations</td><td class="partial">△</td><td class="partial">△</td><td class="cross">✗</td><td class="partial">△</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td></tr>
+
+                    <tr><td>Color-blind friendly palette options</td><td class="cross">✗</td><td class="cross">✗</td><td class="checkmark">✓</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td><td class="checkmark">✓</td></tr>
+
+                    <tr><td>High contrast mode beyond dark mode</td><td class="cross">✗</td><td class="cross">✗</td><td class="checkmark">✓</td><td class="partial">△</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td><td class="checkmark">✓</td></tr>
+
+                    <tr><td>Font size scaling throughout the interface</td><td class="partial">△</td><td class="partial">△</td><td class="checkmark">✓</td><td class="checkmark">✓</td><td class="cross">✗</td><td class="partial">△</td><td class="cross">✗</td><td class="checkmark">✓</td></tr>
+
+                    <tr><td>Dyslexic Font</td><td class="cross">✗</td><td class="cross">✗</td><td class="partial">△</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td></tr>
+
+                    <!-- Performance & System Features -->
+                    <tr><td class="feature-category">⚙️ Performance & System Features</td><td class="feature-category"></td><td class="feature-category"></td><td class="feature-category"></td><td class="feature-category"></td><td class="feature-category"></td><td class="feature-category"></td><td class="feature-category"></td><td class="feature-category"></td></tr>
+
+                    <tr><td>Memory usage indicators and cleanup tools</td><td class="cross">✗</td><td class="cross">✗</td><td class="partial">△</td><td class="partial">△</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td><td class="partial">△</td></tr>
+
+                    <tr><td>Large file handling warnings and optimization suggestions</td><td class="partial">△</td><td class="partial">△</td><td class="partial">△</td><td class="checkmark">✓</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td><td class="partial">△</td></tr>
+
+                    <tr><td>Background processing prioritization</td><td class="cross">✗</td><td class="cross">✗</td><td class="checkmark">✓</td><td class="partial">△</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td><td class="checkmark">✓</td></tr>
+
+                    <tr><td>Network usage monitoring for cloud sync</td><td class="cross">✗</td><td class="cross">✗</td><td class="partial">△</td><td class="partial">△</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td><td class="partial">△</td></tr>
+
+                    <tr><td>Cache management for offline content</td><td class="partial">△</td><td class="partial">△</td><td class="checkmark">✓</td><td class="checkmark">✓</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td><td class="checkmark">✓</td></tr>
+
+                    <tr><td>Eye strain reduction settings</td><td class="checkmark">✓</td><td class="checkmark">✓</td><td class="checkmark">✓</td><td class="partial">△</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td><td class="checkmark">✓</td></tr>
+
+                    <!-- UI/UX Polish Features -->
+                    <tr><td class="feature-category">✨ UI/UX Polish Features</td><td class="feature-category"></td><td class="feature-category"></td><td class="feature-category"></td><td class="feature-category"></td><td class="feature-category"></td><td class="feature-category"></td><td class="feature-category"></td><td class="feature-category"></td></tr>
+
+                    <tr><td>Preview tooltips when hovering over tools/buttons</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td></tr>
+
+                    <tr><td>Sticky tool selection (remembers last used pen, color, etc.)</td><td class="checkmark">✓</td><td class="checkmark">✓</td><td class="partial">△</td><td class="checkmark">✓</td><td class="checkmark">✓</td><td class="checkmark">✓</td><td class="checkmark">✓</td><td class="checkmark">✓</td></tr>
+
+                    <tr><td>Quick action toolbar customization per user workflow</td><td class="partial">△</td><td class="partial">△</td><td class="cross">✗</td><td class="partial">△</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td></tr>
+
+                    <!-- Error Handling Features -->
+                    <tr><td class="feature-category">🛡️ Error Handling & Edge Cases</td><td class="feature-category"></td><td class="feature-category"></td><td class="feature-category"></td><td class="feature-category"></td><td class="feature-category"></td><td class="feature-category"></td><td class="feature-category"></td><td class="feature-category"></td></tr>
+
+                    <tr><td>Behavior when storage is full (compression options, cleanup suggestions)</td><td class="cross">✗</td><td class="cross">✗</td><td class="checkmark">✓</td><td class="checkmark">✓</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td><td class="checkmark">✓</td></tr>
+
+                    <tr><td>Network interruption handling during recordings</td><td class="partial">△</td><td class="partial">△</td><td class="checkmark">✓</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td></tr>
+
+                    <tr><td>Stylus battery level indicators and dead stylus detection</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td></tr>
+
+                    <tr><td>Handling of corrupted cloud sync data</td><td class="partial">△</td><td class="partial">△</td><td class="checkmark">✓</td><td class="checkmark">✓</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td><td class="checkmark">✓</td></tr>
+
+                    <tr><td>Battery optimization modes for extended use</td><td class="cross">✗</td><td class="cross">✗</td><td class="checkmark">✓</td><td class="partial">△</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td><td class="checkmark">✓</td></tr>
+
+                    <!-- Security & Privacy Features -->
+                    <tr><td class="feature-category">🔐 Security & Privacy Features</td><td class="feature-category"></td><td class="feature-category"></td><td class="feature-category"></td><td class="feature-category"></td><td class="feature-category"></td><td class="feature-category"></td><td class="feature-category"></td><td class="feature-category"></td></tr>
+
+                    <tr><td>Encryption strength indicators for password-protected notebooks</td><td class="cross">✗</td><td class="cross">✗</td><td class="partial">△</td><td class="partial">△</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td></tr>
+
+                    <tr><td>Data residue cleanup when deleting sensitive content</td><td class="cross">✗</td><td class="cross">✗</td><td class="checkmark">✓</td><td class="checkmark">✓</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td><td class="checkmark">✓</td></tr>
+
+                    <tr><td>Anonymous usage statistics opt-in/out granularity</td><td class="partial">△</td><td class="partial">△</td><td class="checkmark">✓</td><td class="checkmark">✓</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td><td class="checkmark">✓</td></tr>
+
+                    <tr><td>Digital watermarking for notes when sharing</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td><td class="cross">✗</td></tr>
+
+                    <!-- TOTAL ROW -->
+                    <tr class="total-row">
+                        <td>TOTAL FEATURES MATCHED</td>
+                        <td><strong>35/77</strong></td>
+                        <td><strong>37/77</strong></td>
+                        <td><strong>41/77</strong></td>
+                        <td><strong>44/77</strong></td>
+                        <td><strong>19/77</strong></td>
+                        <td><strong>25/77</strong></td>
+                        <td><strong>23/77</strong></td>
+                        <td><strong>33/77</strong></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="legend">
+            <h3>🔑 Legend</h3>
+            <div class="legend-item"><span class="checkmark">✓</span> = Feature fully supported</div>
+            <div class="legend-item"><span class="partial">△</span> = Feature partially supported or limited</div>
+            <div class="legend-item"><span class="cross">✗</span> = Feature not supported</div>
+        </div>
+
+        <div class="note">
+            <h3>📋 Key Findings</h3>
+            <p><strong>Microsoft OneNote</strong> leads with 44/77 features, offering the most comprehensive feature set including excellent collaboration, cloud integration, and cross-platform support.</p>
+
+            <p><strong>Apple Notes</strong> comes second with 41/77 features, particularly strong in system integration, accessibility, and privacy features.</p>
+
+            <p><strong>Notability</strong> scores 37/77, excelling in audio recording, transcription, and note replay features that are ideal for students and professionals.</p>
+
+            <p><strong>GoodNotes 6</strong> achieves 35/77, strong in handwriting recognition, PDF annotation, and traditional note-taking workflows.</p>
+
+            <p><strong>Freeform</strong> has 33/77 features, good for creative collaboration and infinite canvas work.</p>
+
+            <p><strong>Notable Gaps:</strong> Most apps lack advanced features like API integrations, time tracking, location-based tagging, animation capabilities, and comprehensive analytics. Your requirements are quite comprehensive and would likely require a custom solution or combination of multiple apps.</p>
+        </div>
+    </div>
+</body>
+</html>
